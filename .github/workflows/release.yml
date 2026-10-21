@@ -46,7 +46,7 @@ jobs:
           cd dist
           tar -czf ../sanskrit-${{ github.ref_name }}-${{ matrix.target }}.tar.gz *
       - name: Upload Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: sanskrit-${{ matrix.target }}
           path: sanskrit-${{ github.ref_name }}-${{ matrix.target }}.tar.gz
