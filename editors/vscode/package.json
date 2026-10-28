@@ -631,7 +631,7 @@
   "dependencies": {
     "@vscode/debugadapter": "^1.65.0",
     "@vscode/debugprotocol": "^1.65.0",
-    "vscode-languageclient": "^9.0.1"
+    "vscode-languageclient": "^11.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.0",
